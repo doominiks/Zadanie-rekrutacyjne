@@ -1,0 +1,423 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #dfe2e5;
+}
+
+.wrapper {
+  background-color: #ffffff;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.text-danger {
+  font-weight: 600;
+}
+
+.text-danger {
+  color: #dc2f11 !important;
+}
+
+.doctor .doctor__title {
+  font-weight: 300;
+  color: #6a2007;
+}
+
+.doctor img {
+  max-width: 355px;
+  max-height: 235px;
+}
+
+.doctor .section__list li {
+  padding: 3px 0;
+}
+
+.wife .card-body {
+  background-color: #fbf5b8;
+  height: 30px;
+}
+
+.wife .card-text {
+  line-height: 30px;
+  margin-top: -15px;
+  text-align: center;
+}
+
+.wife .wife__span {
+  background-color: #fdff52;
+}
+
+.baner .baner__img {
+  max-width: 100%;
+}
+
+.baner .baner__par--green {
+  color: #fdff52;
+}
+
+.baner .baner__par--green span {
+  background-color: #42801e;
+}
+
+.baner .baner__list--ordered .baner__list--item {
+  font-weight: 700;
+}
+
+.baner .baner__list--par {
+  font-weight: 300;
+}
+
+.baner .baner__list--unordered p {
+  position: relative;
+}
+
+.baner .baner__list--unordered p:before {
+  content: '';
+  background: url("../img/arrow.png");
+  display: block;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: 3px;
+  left: -26px;
+}
+
+.screamer .screamer__title {
+  position: relative;
+}
+
+.screamer .screamer__title:before {
+  content: '!';
+  position: absolute;
+  top: 45%;
+  left: -3px;
+  font-size: 4rem;
+  color: #dd3619;
+  -webkit-transform: translateY(-50%) rotate(-15deg);
+          transform: translateY(-50%) rotate(-15deg);
+  font-weight: 700;
+}
+
+.screamer .screamer__frame {
+  font-family: 'Times New Roman';
+  background-color: #fafcf0;
+  border: 25px solid transparent;
+  border-image-source: url("../img/fullborder.jpg");
+  border-image-slice: 20 22;
+  border-image-repeat: round;
+}
+
+.screamer .screamer__frame .screamer__frame--title {
+  color: #355525;
+}
+
+.screamer .screamer__frame .frame__container {
+  margin: 0 auto;
+}
+
+.screamer .screamer__frame .frame__container .frame__span:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f005";
+  margin-left: -16px;
+  padding-right: 4px;
+  color: #6e932f;
+}
+
+.medicine .medicine__container--sign {
+  position: relative;
+  width: 100%;
+  height: 120px;
+}
+
+.medicine .medicine__container--sign:before {
+  content: 'prof. John Doe';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.medicine .medicine__container--box {
+  position: relative;
+}
+
+.medicine .medicine__container--box .medicine__image--box {
+  position: relative;
+}
+
+.medicine .medicine__container--box .box__satisfaction {
+  position: absolute;
+  bottom: 0;
+  left: 15%;
+}
+
+.medicine .medicine__container--box .box__satisfaction img {
+  width: 75%;
+}
+
+.medicine .medicine__container--box .medicine__container--box:after {
+  content: 'Dolorum rem eaque ducimus omnix:';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.medicine .medicine__container--box .medicine__span--red {
+  color: #e22f11;
+  font-weight: 300;
+}
+
+.medicine .box__info {
+  position: absolute;
+  top: 40%;
+  right: 0;
+}
+
+.medicine .box__info .info__par {
+  line-height: 15px;
+  font-weight: 500;
+  width: 150px;
+  margin-left: 5px;
+}
+
+.medicine .box__info .info__number {
+  font-size: 4rem;
+  margin-top: -20px;
+}
+
+.order .order__container {
+  background-color: #f5f5f5;
+  border: 1px solid #e0e0e0;
+  -webkit-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.05);
+}
+
+.order .order-form__title {
+  color: #65a87b;
+}
+
+.order .order-form h4 {
+  color: #8b1002;
+}
+
+.order .order-form .form__email,
+.order .order-form .form__phone {
+  position: relative;
+}
+
+.order .order-form .email__question,
+.order .order-form .phone__question {
+  position: absolute;
+  top: 54px;
+  right: 8px;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  background-color: #e5e5e5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 12px;
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+.order .order-form .order__par--payment {
+  margin-top: -15px;
+}
+
+.order .order-form .order__button {
+  width: 100%;
+  height: 66px;
+  border-radius: 8px;
+  background-color: #61a651;
+  color: #ffffff;
+  font-size: 1.6rem;
+}
+
+.order .order-form .order__table td {
+  padding: 2px 8px;
+  border: 1px solid black;
+}
+
+.order .order-form .order__table--price {
+  color: #61a651;
+}
+
+.order .order__select {
+  width: 100%;
+}
+
+aside .card {
+  float: right;
+  border-radius: 5px;
+  font-size: 0.95rem;
+  margin-bottom: 25px;
+  margin-top: 11px;
+}
+
+aside .card .card-body {
+  position: relative;
+}
+
+aside .card .card-body:after {
+  content: '-17kg';
+  font-size: 1.5rem;
+  color: #ffffff;
+  width: 70px;
+  height: 43px;
+  background-color: #6e932f;
+  position: absolute;
+  top: -30px;
+  right: -5px;
+  border-radius: 5px;
+  text-align: center;
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
+}
+
+aside .card .card-title {
+  margin: 0 auto;
+  color: #c04245;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
+aside .card .fa-star {
+  color: #6e932f;
+}
+
+footer {
+  height: 60px;
+  margin: 0 auto;
+}
+
+footer p {
+  line-height: 60px;
+  margin: 0 auto;
+  color: blue;
+}
+
+footer p a {
+  padding-right: 10px;
+  padding-left: 10px;
+  border-right: solid 1px black;
+}
+
+footer p a:nth-of-type(3) {
+  border-right: none;
+}
+
+@media (max-width: 576px) {
+  body {
+    font-size: 12px;
+  }
+  .medicine .box__info {
+    width: 100%;
+    top: 80px;
+    left: 5px;
+  }
+  .medicine .box__info .info__par {
+    width: 100%;
+  }
+  .medicine .medicine__container--box .box__satisfaction {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .medicine .medicine__container--box .box__satisfaction img {
+    width: 55%;
+  }
+  .medicine .medicine__image--box {
+    margin-top: 110px;
+  }
+  .medicine .medicine__image--sign {
+    width: 70%;
+  }
+  .order .order-form__title {
+    font-size: 1.8rem;
+  }
+  .order .order-form .email__question,
+  .order .order-form .phone__question {
+    position: absolute;
+    top: 47px;
+    right: 8px;
+  }
+  .doctor .doctor__image {
+    width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  aside {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .medicine .box__info {
+    right: -15px;
+  }
+}
+
+[data-tip] {
+  position: relative;
+}
+
+[data-tip]:before {
+  display: none;
+  content: '';
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #1a1a1a;
+  position: absolute;
+  top: -12px;
+  left: -10px;
+  z-index: 8;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+[data-tip]:after {
+  display: none;
+  content: attr(data-tip);
+  position: absolute;
+  top: -40px;
+  left: -110px;
+  padding: 5px 8px;
+  background: #1a1a1a;
+  color: #fff;
+  z-index: 9;
+  font-size: 0.75em;
+  height: 28px;
+  line-height: 18px;
+  border-radius: 3px;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+
+[data-tip]:hover:before,
+[data-tip]:hover:after {
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */
