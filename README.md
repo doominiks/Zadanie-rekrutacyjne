@@ -1,2 +1,1 @@
-https://doominiks.github.io/Zadanie/
-Zadanie rekrutacyjne.
+https://doominiks.github.io/strona
